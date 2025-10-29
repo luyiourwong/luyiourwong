@@ -1,5 +1,6 @@
 Hello world
 
-<img height="200" align="center" alt="github stats" src="https://github-readme-stats.vercel.app/api?username=luyiourwong&show_icons=true&theme=dark">
-
-<img height="200" align="center" alt="top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luyiourwong&theme=dark&layout=donut">
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img style="max-height: 150px; width: auto;" alt="github stats" src="https://github-readme-stats.vercel.app/api?username=luyiourwong&show_icons=true&theme=dark">
+    <img style="max-height: 150px; width: auto;" alt="top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luyiourwong&theme=dark&layout=donut">
+</div>
