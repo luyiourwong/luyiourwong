@@ -1,6 +1,6 @@
-# Hi there, I'm luyiourwong 👋
+# Hi there, I'm Lu Yiou Rwong 👋
 
-I'm a R&D alternative service engineer at Flowring Tech, where I'm part of the innovative Cloud Service & AI Agent Team. Involves leveraging cutting-edge technologies to build intelligent and scalable solutions.
+I'm a Software Engineer at Flowring Tech, currently serving in the R&D Alternative Service program within the Cloud Service & AI Agent Team. Involves leveraging cutting-edge technologies to build intelligent and scalable solutions.
 
 Master's degree in Information Engineering with a specialization in Artificial Intelligence, two IEEE papers. Experience in software development and machine learning.
 
@@ -14,7 +14,7 @@ Master's degree in Information Engineering with a specialization in Artificial I
 
 ## 📊 My GitHub
 
-<a style="display: flex; justify-content: center; gap: 10px;" href="https://github.com/luyiourwong">
+<a style="display: flex; justify-content: center; gap: 10px;" href="https://github.com/stats-organization/github-readme-stats-action">
 <img height="150" style="max-height: 150px; width: auto;" alt="luyiourwong's GitHub stats" src="https://raw.githubusercontent.com/luyiourwong/luyiourwong/github-stats-assets/github-stats.svg" />
 <img height="150" style="max-height: 150px; width: auto;" alt="luyiourwong's Top Languages" src="https://raw.githubusercontent.com/luyiourwong/luyiourwong/github-stats-assets/top-langs.svg" />
 </a>
