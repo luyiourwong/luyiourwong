@@ -1,0 +1,47 @@
+name: Update GitHub Stats
+on:
+  schedule:
+    - cron: "0 18 1 * *" # 每月 2 號 02:00（UTC+8）
+  workflow_dispatch:     # 允許手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 先建立一個臨時資料夾存放產生的圖檔
+      - run: mkdir -p output
+
+      # 1. 產生 GitHub Stats 卡片
+      - name: Generate Stats Card
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=luyiourwong&show_icons=true&theme=dark
+          path: output/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. 產生 Top Languages 卡片
+      - name: Generate Top Languages Card
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=luyiourwong&theme=dark&layout=donut
+          path: output/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 3. 將產生的 SVG 提交回 Repository, 放在獨立的分支
+      - name: Deploy to Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: github-stats-assets
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "chore: update stats history"

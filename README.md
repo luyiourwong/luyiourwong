@@ -14,7 +14,7 @@ Master's degree in Information Engineering with a specialization in Artificial I
 
 ## 📊 My GitHub
 
-<a style="display: flex; justify-content: center; gap: 10px;" href="https://github.com/anuraghazra/github-readme-stats">
-<img height="150" style="max-height: 150px; width: auto;" alt="luyiourwong's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=luyiourwong&show_icons=true&theme=dark" />
-<img height="150" style="max-height: 150px; width: auto;" alt="luyiourwong's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luyiourwong&theme=dark&layout=donut" />
+<a style="display: flex; justify-content: center; gap: 10px;" href="https://github.com/luyiourwong">
+<img height="150" style="max-height: 150px; width: auto;" alt="luyiourwong's GitHub stats" src="https://raw.githubusercontent.com/luyiourwong/luyiourwong/github-stats-assets/github-stats.svg" />
+<img height="150" style="max-height: 150px; width: auto;" alt="luyiourwong's Top Languages" src="https://raw.githubusercontent.com/luyiourwong/luyiourwong/github-stats-assets/top-langs.svg" />
 </a>
