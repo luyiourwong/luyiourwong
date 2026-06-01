@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Lu Yiou Rwong's GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 103, Total PRs: 46, Total Issues: 21, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 115, Total PRs: 49, Total Issues: 22, Contributed to (last year): 10</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 187.86354417187388;
+        stroke-dashoffset: 185.16066572381868;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >103</text>
+      >115</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >46</text>
+      >49</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >21</text>
+      >22</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >9</text>
+      >10</text>
     </g>
   </g>
     </svg>
