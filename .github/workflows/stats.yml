@@ -19,21 +19,21 @@ jobs:
 
       # 1. 產生 GitHub Stats 卡片
       - name: Generate Stats Card
-        uses: stats-organization/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=luyiourwong&show_icons=true&theme=dark
           path: output/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
 
       # 2. 產生 Top Languages 卡片
       - name: Generate Top Languages Card
-        uses: stats-organization/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=luyiourwong&theme=dark&layout=donut
           path: output/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
 
       # 3. 將產生的 SVG 提交回 Repository, 放在獨立的分支
       - name: Deploy to Branch
